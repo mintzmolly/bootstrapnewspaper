@@ -1,0 +1,98 @@
+/* general styles */
+html, body {
+height: 100%;
+width: 100%;
+}
+
+/* padded section */
+.pad-section {
+padding: 50px 0;
+}
+.pad-section img {
+width: 100%;
+}
+/* vertical-centered text */
+.text-vcenter {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+.text-vcenter h1 {
+font-size: 4.5em;
+font-weight: 700;
+margin: 0;
+padding: 0;
+}
+/* additional sections */
+#home {
+background: url(http://timetchells.com/wp-content/uploads/2015/06/Tim-Etchells-A-Broadcast-Looping-Pieces-Performance-2014-Photo-Piet-Janssens-1-872x580.jpg) no-repeat center center fixed; 
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#home h1 {
+	font-family: "Racing Sans One", cursive;
+	color: yellow;
+}
+
+#home p {
+	font-family: "Josefin Sans", sans-serif, cursive, bold, italic; 
+	color: white;
+}
+
+nav {
+	font-family: "Anton", sans-serif;
+	font-color: black;
+}
+
+#about h2 {
+	font-family: "Anton", sans-serif;
+	font-color: black;
+}
+
+#services {
+background-color: black;
+color: white;
+}
+
+#services h2 {
+	font-family: "Racing Sans One", cursive;
+	color: #FFFF00;
+}
+
+#services img {
+border: 8px dotted white;
+border-radius: 50%;
+display: inline-block;
+font-size: 80px;
+height: 200px;
+line-height: 140px;
+text-align: center;
+vertical-align: middle;
+width: 200px;
+}
+
+#information {
+display: table;
+height: 300px;
+position: relative;
+width: 100%;
+font-family: "Josefin Sans", sans-serif;
+}
+#information .panel {
+opacity: 0.85;
+}
+#map {
+height: 500px;
+width: 100%;
+}
+footer {
+padding: 20px 0;
+font-family: "Anton", sans-serif;
+}
